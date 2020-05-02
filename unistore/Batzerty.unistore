@@ -1,0 +1,115 @@
+{
+	"storeInfo": {
+		"url": "https://github.com/batzerty/batzerty-unistore/raw/master/unistore/Batzerty.unistore",
+		"file": "sdmc:/3ds/Universal-Updater/stores/Batzerty.unistore",
+		"title": "Batzerty",
+		"author": "Batzerty",
+		"description": "A store",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 1
+	},
+	"storeContent": [
+		{
+		"info": {
+			"title": "Relaunch",
+			"version": "4.0.0",
+			"author": "Universal-Team",
+			"description": "An Unlaunch look-a-like targeted toward flashcard users",
+			"fileSize": 638720
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/Relaunch",
+			"file": "Relaunch.7z",
+			"output": "sdmc:/Relaunch.7z",
+			"message": "Downloading Relaunch..."
+		}, {
+			"type": "extractFile",
+			"file": "/Relaunch.7z",
+			"input": "Relaunch/_nds/Relaunch/menu.bin",
+			"output": "/_nds/Relaunch/menu.bin",
+			"message": "Extracting Relaunch... please wait."
+		}, {
+			"type": "extractFile",
+			"file": "/Relaunch.7z",
+			"input": "Relaunch/Relaunch.cia",
+			"output": "/Relaunch.cia",
+			"message": "Extracting Relaunch... please wait."
+		}, {
+			"type": "installCia",
+			"file": "sdmc:/Relaunch.cia",
+			"message": "Installing CIA..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/Relaunch.7z",
+			"message": "Deleting unneded file."
+		}]
+	},
+	{
+		"info": {
+			"title": "Smash controller",
+			"version": "1.0.0",
+			"author": "jsp",
+			"description": "Smash controller",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://archive.org/download/3ds-cia-eshop/0571%20-%20Smash%20Controller%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CPt%2CRu%29%20%28eShop%29.rar",
+			"output": "/0571 - Smash Controller (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (eShop).rar",
+			"message": "Downloading..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/0571 - Smash Controller (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (eShop).rar",
+			"input": "/0571 - Smash Controller (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (eShop)/0571 - Smash Controller (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (eShop).cia",
+			"output": "/0571 - Smash Controller (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (eShop).cia",
+			"message": "Extracting..."
+		},
+		{
+			"type": "installCia",
+			"file": "/0571 - Smash Controller (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (eShop).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/0571 - Smash Controller (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (eShop).cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/0571 - Smash Controller (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru) (eShop).rar"
+		}]
+	},
+	{
+		"info": {
+			"title": "Pokemon Prism",
+			"version": "1.0.0",
+			"author": "jsp",
+			"description": "Pokemon Prism on your 3ds",
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "batzerty/little-project",
+			"file": "abc.cia",
+			"output": "sdmc:/abc.cia",
+			"message": "Downloading CIA..."
+		}, {
+			"type": "installCia",
+			"file": "sdmc:/abc.cia",
+			"message": "Installing CIA..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/abc.cia",
+			"message": "Deleting downloaded CIA file..."
+		}]
+	}]
+}
