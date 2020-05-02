@@ -1,0 +1,109 @@
+{
+	"storeInfo": {
+		"title": "Batzerty-Unistore",
+		"author": "Batzerty",
+		"url": "https://github.com/batzerty/batzerty-unistore/raw/master/unistore/Batzerty-Unistore.unistore",
+		"file": "sdmc:/3ds/Universal-Updater/stores/Batzerty-Unistore.unistore",
+		"sheet": "sdmc:/3ds/Universal-Updater/stores/Batzerty-Unistore.t3x",
+		"sheetURL": "https://github.com/batzerty/batzerty-unistore/raw/master/unistore/Batzerty-Unistore.t3x",
+		"displayInformation": false,
+		"description": "Batzerty's UniStore",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 0
+	},
+	"storeContent": [
+		{
+		"info": {
+			"title": "TWiLight Menu++ (Nightly Lite)",
+			"version": "11.2.0",
+			"author": "DS-Homebrew",
+			"description": "TWiLightMenu++",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 14658927
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
+			"output": "/TWiLightMenu.7z",
+			"message": "Downloading TWiLight Menu++ Lite (Nightly)..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/_nds/",
+			"output": "/_nds/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/3DS - CFW users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/TWiLightMenu.7z",
+			"input": "TWiLightMenu/DSi&3DS - SD card users/",
+			"output": "/",
+			"message": "Extracting TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu.cia",
+			"message": "Installing TWiLight Menu++..."
+		},
+		{
+			"type": "installCia",
+			"file": "/TWiLight Menu - Game booter.cia",
+			"message": "Installing TWiLight Menu - Game booter..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu - Game booter.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLight Menu.cia"
+		},
+		{
+			"type": "deleteFile",
+			"file": "/TWiLightMenu.7z"
+		}]
+	},
+	{
+		"info": {
+			"title": "Pokemon prism (cia)",
+			"version": "",
+			"author": "créer par jsp",
+			"description": "abc",
+			"iconIndex": 3,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/batzerty/little-project/blob/master/abc.cia",
+			"output": "sdmc:/abc.cia",
+			"message": "Downloading Pokemon Prism (cia)..."
+		},
+		{
+			"type": "installCia",
+			"file": "/abc.cia",
+			"message": "Installing Pokemon Prism (cia)..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/abc.cia",
+			"message": "Delete unneded file..."
+		}]
+	}]
+}
