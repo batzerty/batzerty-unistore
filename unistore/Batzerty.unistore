@@ -1,0 +1,590 @@
+{
+	"storeInfo": {
+		"url": "https://github.com/batzerty/batzerty-unistore/raw/master/unistore/Batzerty.unistore",
+		"file": "sdmc:/3ds/Universal-Updater/stores/Batzerty.unistore",
+		"title": "Batzerty Unistore (Freeshop 2.0)",
+		"author": "Batzerty",
+		"description": "Freeshop 2.0 (3lignes du cardridge 3ds cia)",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 1
+	},
+	"storeContent": [
+                {
+		"info": {
+			"title": "2in1 - Life with Horses 3D + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "2in1 - Life with Horses 3D + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=kbtm&id=106R3STI8gZYAOC2aqBTnc_xvz3SNFy3Q",
+			"output": "/2in1 - Life with Horses 3D + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/2in1 - Life with Horses 3D + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/2in1 - Life with Horses 3D + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "2in1 - My Vet Practice 3D - In the Country + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "2in1 - My Vet Practice 3D - In the Country + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=Atjo&id=1dtfawh7ArMYvRqMvuT95k4u4_EFGsWdX",
+			"output": "/2in1 - My Vet Practice 3D - In the Country + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/2in1 - My Vet Practice 3D - In the Country + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/2in1 - My Vet Practice 3D - In the Country + My Baby Pet Hotel 3D (Europe) (En,Fr,De,Es,It,Nl).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "2in1 Horses 3D - My Foal 3D + My Riding Stables 3D - Rivals in the Saddle (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "2in1 Horses 3D - My Foal 3D + My Riding Stables 3D - Rivals in the Saddle (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=Ls_H&id=10YYj5ynH8hda_qNGMcTSaOHcWb8LojrQ",
+			"output": "/2in1 Horses 3D - My Foal 3D + My Riding Stables 3D - Rivals in the Saddle (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/2in1 Horses 3D - My Foal 3D + My Riding Stables 3D - Rivals in the Saddle (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/2in1 Horses 3D - My Foal 3D + My Riding Stables 3D - Rivals in the Saddle (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "2in1 Horses 3D Vol.2 - Rivals in the Saddle and Jumping for the Team 3D (Europe) (En,Fr,De,Es,It)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "2in1 Horses 3D Vol.2 - Rivals in the Saddle and Jumping for the Team 3D (Europe) (En,Fr,De,Es,It)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1VEGoakkFpWmTv7rTh7UNUNiHU79cUxcI&export=download",
+			"output": "/2in1 Horses 3D Vol.2 - Rivals in the Saddle and Jumping for the Team 3D (Europe) (En,Fr,De,Es,It).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/2in1 Horses 3D Vol.2 - Rivals in the Saddle and Jumping for the Team 3D (Europe) (En,Fr,De,Es,It).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/2in1 Horses 3D Vol.2 - Rivals in the Saddle and Jumping for the Team 3D (Europe) (En,Fr,De,Es,It).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "2in1 Horses 3D Vol.3 - My Riding Stables 3D - Jumping for the Team and My Western Horse 3D (Europe) (En,Fr,De,It,Nl)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "2in1 Horses 3D Vol.3 - My Riding Stables 3D - Jumping for the Team and My Western Horse 3D (Europe) (En,Fr,De,It,Nl)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=14JTiwqSBdarfjOqV9kunuPe86G2oJSJh&export=download",
+			"output": "/2in1 Horses 3D Vol.3 - My Riding Stables 3D - Jumping for the Team and My Western Horse 3D (Europe) (En,Fr,De,It,Nl).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/2in1 Horses 3D Vol.3 - My Riding Stables 3D - Jumping for the Team and My Western Horse 3D (Europe) (En,Fr,De,It,Nl).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/2in1 Horses 3D Vol.3 - My Riding Stables 3D - Jumping for the Team and My Western Horse 3D (Europe) (En,Fr,De,It,Nl).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "3D Game Collection - 55-in-1 (Europe)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "3D Game Collection - 55-in-1 (Europe)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1Bm8y1I32ysBEEJsf47XH7BuGaHvJQ3qr&export=download",
+			"output": "/3D Game Collection - 55-in-1 (Europe).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3D Game Collection - 55-in-1 (Europe).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3D Game Collection - 55-in-1 (Europe).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "3D Game Collection - 55-in-1 (Germany) (Fr,De)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "3D Game Collection - 55-in-1 (Germany) (Fr,De)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1xqqA3JBrWY6bq38xmgGQgDpY4cDKj5X4&export=download",
+			"output": "/3D Game Collection - 55-in-1 (Germany) (Fr,De).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3D Game Collection - 55-in-1 (Germany) (Fr,De).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3D Game Collection - 55-in-1 (Germany) (Fr,De).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "3D MahJongg (Europe) (En,Fr,De,Nl)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "3D MahJongg (Europe) (En,Fr,De,Nl)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1RuW5ICXE_YX_G1xCRoPO3UgGXp2CX7mK&export=download",
+			"output": "/3D MahJongg (Europe) (En,Fr,De,Nl).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3D MahJongg (Europe) (En,Fr,De,Nl).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3D MahJongg (Europe) (En,Fr,De,Nl).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "4 Elements (Europe) (En,Fr,De,Nl)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "4 Elements (Europe) (En,Fr,De,Nl)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=kbtm&id=106R3STI8gZYAOC2aqBTnc_xvz3SNFy3Q",
+			"output": "/4 Elements (Europe) (En,Fr,De,Nl).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/4 Elements (Europe) (En,Fr,De,Nl).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/4 Elements (Europe) (En,Fr,De,Nl).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "7th Dragon III Code - VFD (Europe)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "7th Dragon III Code - VFD (Europe)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=FOjO&id=13DQUacXqLy9K3oAfR1slr7ol2So_MHHa",
+			"output": "/7th Dragon III Code - VFD (Europe).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/7th Dragon III Code - VFD (Europe).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/7th Dragon III Code - VFD (Europe).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "7th Dragon III Code - VFD (Japan)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "7th Dragon III Code - VFD (Japan)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=dyzo&id=119S7yrEPIvEYgYJYB56PrkN6earVppDE",
+			"output": "/7th Dragon III Code - VFD (Japan).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/7th Dragon III Code - VFD (Japan).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/7th Dragon III Code - VFD (Japan).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "7th Dragon III Code - VFD (USA)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "7th Dragon III Code - VFD (USA)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=kdqF&id=1gRL-XFYs3Iqni7uGttIWUx_u_1XF7MY5",
+			"output": "/7th Dragon III Code - VFD (USA).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/7th Dragon III Code - VFD (USA).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/7th Dragon III Code - VFD (USA).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "12-Sai. Honto no Kimochi (Japan)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "12-Sai. Honto no Kimochi (Japan)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=LZRC&id=1OJ71wL1qu6VlMw-hg-gMdQMzYACRItEI",
+			"output": "/12-Sai. Honto no Kimochi (Japan).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/12-Sai. Honto no Kimochi (Japan).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/12-Sai. Honto no Kimochi (Japan).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "12-Sai. Koisuru Diary (Japan)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "12-Sai. Koisuru Diary (Japan)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?export=download&confirm=ECh3&id=1T9vJaLTchetVI9zNtEWqHK1EGy0ocORJ",
+			"output": "/12-Sai. Koisuru Diary (Japan).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/12-Sai. Koisuru Diary (Japan).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/12-Sai. Koisuru Diary (Japan).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "35 Classic Games (Europe) (En,Fr,Es,It)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "35 Classic Games (Europe) (En,Fr,Es,It)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1sbXOGtboKHf-lMVIwWqdhv-WnVNUNWda&export=download",
+			"output": "/35 Classic Games (Europe) (En,Fr,Es,It).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/35 Classic Games (Europe) (En,Fr,Es,It).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/35 Classic Games (Europe) (En,Fr,Es,It).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "50 Classic Games (Europe) (En,Fr,Es,It)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "50 Classic Games (Europe) (En,Fr,Es,It)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1GydIm18tIviFzAopQQXppoEF57saCqTc&export=download",
+			"output": "/50 Classic Games (Europe) (En,Fr,Es,It).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/50 Classic Games (Europe) (En,Fr,Es,It).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/50 Classic Games (Europe) (En,Fr,Es,It).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "50 Classic Games 3D (Europe) (En,Fr,De,Es,It,Nl)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "50 Classic Games 3D (Europe) (En,Fr,De,Es,It,Nl)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1K98ZdY1qg9gkbSKyAn01Y9nm9vyQ1fRl&export=download",
+			"output": "/50 Classic Games 3D (Europe) (En,Fr,De,Es,It,Nl).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/50 Classic Games 3D (Europe) (En,Fr,De,Es,It,Nl).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/50 Classic Games 3D (Europe) (En,Fr,De,Es,It,Nl).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "50 Classic Games 3D (USA) (En,Fr,Es)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "50 Classic Games 3D (USA) (En,Fr,Es)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1AvtgFd6FenGmV3ShBXzkHSSCgkVNfKdd&export=download",
+			"output": "/50 Classic Games 3D (USA) (En,Fr,Es).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/50 Classic Games 3D (USA) (En,Fr,Es).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/50 Classic Games 3D (USA) (En,Fr,Es).cia"
+		}]
+	},
+        {
+		"info": {
+			"title": "Relaunch",
+			"version": "4.0.0",
+			"author": "Universal-Team",
+			"description": "An Unlaunch look-a-like targeted toward flashcard users",
+			"fileSize": 638720
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/Relaunch",
+			"file": "Relaunch.7z",
+			"output": "sdmc:/Relaunch.7z",
+			"message": "Downloading Relaunch..."
+		}, {
+			"type": "extractFile",
+			"file": "/Relaunch.7z",
+			"input": "Relaunch/_nds/Relaunch/menu.bin",
+			"output": "/_nds/Relaunch/menu.bin",
+			"message": "Extracting Relaunch... please wait."
+		}, {
+			"type": "extractFile",
+			"file": "/Relaunch.7z",
+			"input": "Relaunch/Relaunch.cia",
+			"output": "/Relaunch.cia",
+			"message": "Extracting Relaunch... please wait."
+		}, {
+			"type": "installCia",
+			"file": "sdmc:/Relaunch.cia",
+			"message": "Installing CIA..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/Relaunch.7z",
+			"message": "Deleting unneded file."
+		}]
+	},
+	{
+		"info": {
+			"title": "2 Fast 4 Gnomz (Europe) (eShop)",
+			"version": "0.0.0",
+			"author": "0",
+			"description": "2 Fast 4 Gnomz (Europe) (eShop)",
+			"iconIndex": 2,
+			"posX": 0,
+			"posY": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://drive.google.com/u/0/uc?id=1A3rvhW8RJsAA0JSBZuylukjwGXrHOj4k&export=download",
+			"output": "/2 Fast 4 Gnomz (Europe) (eShop).cia",
+			"message": "Downloading..."
+		},
+		{
+			"type": "installCia",
+			"file": "/2 Fast 4 Gnomz (Europe) (eShop).cia",
+			"message": "Installing..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/2 Fast 4 Gnomz (Europe) (eShop).cia"
+		}]
+	},
+	{
+		"info": {
+			"title": "Pokemon Prism",
+			"version": "1.0.0",
+			"author": "jsp",
+			"description": "Pokemon Prism on your 3ds",
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "batzerty/little-project",
+			"file": "abc.cia",
+			"output": "sdmc:/abc.cia",
+			"message": "Downloading CIA..."
+		}, {
+			"type": "installCia",
+			"file": "sdmc:/abc.cia",
+			"message": "Installing CIA..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/abc.cia",
+			"message": "Deleting downloaded CIA file..."
+		}]
+	}]
+}
